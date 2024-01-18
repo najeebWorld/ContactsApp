@@ -17,7 +17,7 @@ To run the project locally, follow these steps:
    git clone https://github.com/najeebWorld/ContactsApp.git
 
    
-2.open Terminal and run :
+2.Open Terminal and run :
    ```bash
    npm install
    npm run start
