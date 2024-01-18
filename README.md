@@ -18,7 +18,7 @@ To run the project locally, follow these steps:
 
    
 2.Open Terminal and run :
- 
+    ```bash
    npm install
    npm run start
 
