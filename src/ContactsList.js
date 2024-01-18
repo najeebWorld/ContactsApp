@@ -108,6 +108,8 @@ const ContactsList = () => {
           console.log(data[0]);
           setContacts(data);
           setFilteredContacts(data);
+          //console.log(data);//I need to log the data 
+
         }
       }
     })();
