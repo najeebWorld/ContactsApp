@@ -18,10 +18,10 @@ To run the project locally, follow these steps:
 
    
 2.Open Terminal and run :
-    ```bash
+   ```bash
    npm install
    npm run start
-
+```
 3.Download Expo Go app
 4.Scan the QR code and open the application.
    
