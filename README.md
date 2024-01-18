@@ -23,6 +23,6 @@ To run the project locally, follow these steps:
    npm run start
 ```
 3.Download Expo Go app
-```
+
 4.Scan the QR code and open the application.
    
