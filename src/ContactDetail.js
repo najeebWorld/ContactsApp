@@ -8,7 +8,10 @@ const ContactDetail = ({ route, navigation }) => {
     <View style={styles.container}>
       <Text style={styles.contactInfo}>
         Name: {contact.firstName}{'\n'}
-        Phone: {contact.phoneNumbers && contact.phoneNumbers[0].number}
+        Phone: {contact.phoneNumbers && contact.phoneNumbers[0].number}{'\n'}
+       {/* id : {contact.id && contact.id}{'\n'} */}
+        contactType :{contact.contactType && contact.contactType }{'\n'}
+        
       </Text>
 
       <TouchableOpacity style={styles.goBackButton} onPress={() => navigation.goBack()}>
@@ -23,10 +26,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: 5,
+
   },
   contactInfo: {
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: 5,
     borderRadius: 5,
     borderColor: "black",
     borderStyle: "solid",
